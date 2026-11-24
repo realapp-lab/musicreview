@@ -5,18 +5,18 @@ Aplicativo web progressivo (PWA) de revisão musical com questões organizadas p
 ## Estrutura do app
 - **MSA** — 500 questões em 16 fases.
 - **Organista** — Estudos para Órgão Eletrônico, Volumes 1 a 4.
-- **Músicos** — Métodos em PDF (Clarineta, Violino e Flauta).
+- **Músicos** — Métodos em PDF (Clarineta, Violino, Flauta e Saxofone).
 
 ## Arquivos do Projeto
 - `index.html` — Aplicação principal com banco completo de questões e exportação em PDF.
 - `manifest.json` — Manifesto para instalação como aplicativo (PWA / Web App).
 - `sw.js` — Service Worker para cache e funcionamento offline.
 - `icon-192.png` e `icon-512.png` — Ícones do aplicativo.
-- `metodo-para-clarineta-nabor-pires-camargo-pr.pdf`, `metodo-violino-lambert-pr.pdf` e `metodo-flauta-galli-pr.pdf` — PDFs da seção **Músicos** (devem ficar na mesma pasta do `index.html`).
+- `metodo-para-clarineta-nabor-pires-camargo-pr.pdf`, `metodo-violino-lambert-pr.pdf`, `metodo-flauta-galli-pr.pdf` e `metodo-saxofone-amadeu-russo-pr.pdf` — PDFs da seção **Músicos** (devem ficar na mesma pasta do `index.html`).
 
 ## Publicação no GitHub Pages
 1. Crie um repositório no GitHub (ex.: `music-review`).
-2. Envie todos os arquivos (`index.html`, `manifest.json`, `sw.js`, `icon-192.png`, `icon-512.png`, os três PDFs e `README.md`) para a branch `main`.
+2. Envie todos os arquivos (`index.html`, `manifest.json`, `sw.js`, `icon-192.png`, `icon-512.png`, os quatro PDFs e `README.md`) para a branch `main`.
 3. No repositório, acesse **Settings** > **Pages**.
 4. Em **Source**, selecione **Deploy from a branch**, escolha `main` e `/ (root)`, e clique em **Save**.
 5. Acesse o endereço gerado (`https://seu-usuario.github.io/music-review/`).
